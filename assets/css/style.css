@@ -1,0 +1,173 @@
+/* Base CSS */
+.alignleft {
+ float: left;
+ margin-right: 15px;
+}
+.alignright {
+ float: right;
+ margin-left: 15px;
+}
+.aligncenter {
+ display: block;
+ margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+ max-width: 100%;
+ height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   margin: 0 0 15px;
+   color: #1B1B21;
+
+}
+body {
+   color: #545051;
+   font-weight: 400;
+   font-family: 'Raleway', sans-serif;
+}
+
+@font-face {
+ font-family:RusticLoveTattoo;
+ src: url(../fonts/RusticLoveTattoo.otf);
+}
+
+.selector-for-some-widget {
+   box-sizing: content-box;
+}
+a:hover { text-decoration: none }
+
+
+
+/* Main content css all start */
+
+
+
+.main-mlt-form {
+   width: 85%;
+   margin: 0 auto;
+   background: #fff;
+   box-shadow: 0 0 30px #ddd;
+   padding: 20px;
+}
+.main-mlt-form h1 {
+   color: #0f669e;
+   font-size: 30px;
+   text-align: center;
+}
+.single-fildes label {
+   font-size: 15px;
+   font-weight: 600;
+   display: block;
+   margin-bottom: 15px;
+}
+.single-fildes input {
+   width: 100%;
+   padding: 10px;
+   border: 1px solid#ddd;
+   border-radius: 3px;
+}
+.single-fildes .nice-select {
+   width: 100%;
+   height: 46px;
+   line-height: 46px;
+   border-radius: 3px;
+   border-color: #ddd;
+   margin-bottom:15px;
+}
+.single-fildes {
+   margin-bottom: 20px;
+}
+.main-mlt-form button {
+	width: 100%;
+	background: #f0ad4e;
+	color: #fff;
+	border: none;
+	height: 46px;
+	border-radius: 3px;
+	margin-top: 22px;
+}
+
+.progress .progress-bar {
+	background: #f0ad4e;
+}
+
+.header-bar-section {
+   background: #fff;
+   padding: 20px 0 30px 0;
+}
+.site-top-info h1 {
+   font-size: 30px;
+   margin: 0;
+   text-align: center;
+   padding: 10px 0;
+}
+.progress-bar-main .progress {
+	
+	height: 3px;
+	
+	border-radius: 0;
+}
+.single-fildes .nice-select.open .list {
+	width: 100%;
+}
+
+.main-content-area {
+	height: 70vh;
+}
+.main-mlt-form {
+   position: absolute;
+   top: 20%;
+   left: 50%;
+   transform: translate(-50%, 20%);
+}
+.footer-area {
+	text-align: center;
+}
+
+
+.footer-area {
+   height: 5vh;
+}
+.footer-area p {
+   margin: 0;
+   padding-top: 10px;
+}
+
+
+/* Main content css all end  */
+
+
+/*custom CSS */
+
+#Step2,#Step3,#Step4,#Step5,#Step6 {
+ display: none;
+}
+
+button{
+   cursor: pointer;
+}
+
+
+.single-fildes.m-20 {
+ margin-bottom: 60px;
+}
+
+
+.m-80{
+   margin-bottom:120px;
+}
+
+button{
+   margin-top:40px !important;
+}
+
+
+.site-top-info {
+    text-align: center;
+}
